@@ -1,4 +1,3 @@
-%%writefile README.md
 # Reproducible Script for a Language Model
 
 ## What this is
