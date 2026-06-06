@@ -7,7 +7,8 @@ This example shows how to integrate sklearn's cross-validation and hyperparamete
 search with a custom LM training loop.
 
 ## Data
-Dynamic data generation for reproducibility
+Dynamic data generation for reproducibility.
+
 The dataset used in this programm is generated dynamically. The sample data consists of text in Quechua, an indigenous language widely spoken in the Peruvian Andes.
 
 ## Reproduce the result
