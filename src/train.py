@@ -153,18 +153,18 @@ def evaluate_model(model, data_loader, device):
 # ============================================
 def create_sample_data(seed=42, n_samples=1000):
     """Create sample text classification data"""
-    texts = [
-        f"This is a sample text for classification purpose number {i}"
+    texts = [ # This is a sample text for classification purpose number
+        f"Kayqa huk muestra qillqam clasificación propósito yupaypaq {i}"
         for i in range(n_samples)
     ]
     # Add some variety
     for i in range(n_samples):
-        if i % 3 == 0:
-            texts[i] = "I love this product! It's amazing and works great." + texts[i]
-        elif i % 3 == 1:
-            texts[i] = "Terrible experience, would not recommend to anyone." + texts[i]
-        else:
-            texts[i] = "It's okay, nothing special but gets the job done." + texts[i]
+        if i % 3 == 0:   # I love this product! It's amazing and works great.
+            texts[i] = "¡Anchatan munakuni kay ruruta! Admirakuypaqmi hinaspapas ancha allintam llamkan." + texts[i]
+        elif i % 3 == 1: # Terrible experience, would not recommend to anyone.
+            texts[i] = "Manchay experiencia, mana pimanpas recomendasaqchu." + texts[i]
+        else:            # It's okay, nothing special but gets the job done.
+            texts[i] = "Allinmi, manan imapas especialchu aswanpas llank’ayta hunt’achin." + texts[i]
 
     # Create synthetic labels (0: negative, 1: positive, 2: neutral)
     # labels = np.random.randint(0, 3, n_samples)
