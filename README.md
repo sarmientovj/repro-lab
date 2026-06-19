@@ -13,7 +13,7 @@ data/breast_cancer.csv is tracked with DVC. Pointer file: data/breast_cancer.csv
 3. python src/train.py --seed 42
 
 ## Expected output
-seed=42  accuracy=0.9737
+seed=42  accuracy=0.9211
 
 ## Environment
 Python 3.11; exact packages in requirements.txt; see Dockerfile.
